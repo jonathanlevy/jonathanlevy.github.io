@@ -1,0 +1,104 @@
+body {
+ font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  background-image: url('http://leapingfish.github.io/8-26-2015/img/background0832.jpg');
+  background-size: cover;
+  background-position: left;
+  color: #ffffff;
+  display: inline-block;
+  height: 700px;
+  width:100%;
+  text-align: center;
+}
+
+.header .logo {
+  font-size: 56px;
+  margin: 0;
+  padding: 20px 0 0;
+  text-shadow: 1px 1px 4px #000000;
+}
+.header .tagline {
+    text-shadow: 1px 1px 4px #000000;
+  
+}
+
+.header .cta {
+  background-color: #00ccff;
+  box-shadow: 1px 1px 4px #555555;
+  color: white;
+  display: inline-block;
+  padding: 15px 30px 15px 30px;
+  text-align: center;
+  text-decoration: none; 
+}
+
+.header .box {
+  background-color: rgba(0,0,0,0.3);
+  padding: 40px;
+  margin: 40px;
+}
+
+.content {
+  margin: 0 auto 0 auto;
+  max-width: 400px;
+  display: inline-block;
+
+  
+}
+
+.content .title {
+  text-transform: uppercase;
+  border-bottom: solid 5px #000000;
+}
+
+.content ol {
+  
+}
+
+.footer {
+  background-color: #00ccff;
+  text-align: center;
+  padding: 50px;
+}
+.footer a {
+  text-decoration: none;
+}
+
+.footer .cta {
+  background-color: yellow;
+  box-shadow: 0 0 3px #555555;
+  color: #000000;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 25px 0;
+  padding: 15px 30px;
+  
+}
+
+.footer .nav {
+  
+  border-top: solid 4px #000000;
+  padding-top: 20px;
+  text-align: justify;
+  width: 100%;
+  
+}
+
+.footer .nav a {
+  color: #000000;
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer ul {
+  border-top: solid 4px #000000;
+  padding-top: 20px;
+}
+
+.footer ul li {
+  display: inline-block;
+  text-align: justify;
+}

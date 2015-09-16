@@ -1,0 +1,155 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     max-width: 960px;
+     font-size: 12px;
+     line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+header{
+    background-color: #033048;
+    height: 110px; 
+}
+
+header .logo {
+  width: 25%;
+  float: left;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-left: 100px;
+  margin-top: 23px; 
+}
+
+header .nav{
+  margin-top: 41px;
+  margin-left: 0;
+  width: 10%;
+  float: left;
+  color: #f9e42e;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 1px; 
+}
+
+section{
+  background-color: lightgrey;
+  height: 850px;
+  float:left;
+  width:100%;
+}
+
+section.article {
+  width: 700px;
+}
+
+section.article h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #033048;
+  width: 500px;
+  margin-left: 100px;
+}
+
+section.article img {
+  width: 80%;
+  margin-left: 100px;
+  margin-right: 0;
+}
+
+section.article h2 {
+  width: 80%;
+  margin-left: 100px;
+  margin-right: 0;
+  color: grey;
+  font-weight: 300;
+  font-size: 20px
+}
+
+section.aside {
+  margin-left: 700px;
+  margin-top: 200px;
+}
+
+section.aside h1{
+  font-size: 40px;
+  font-weight: 600;
+  color:#033048;
+}
+
+section.aside h2{
+  font-size: 35px;
+  font-weight: 400;
+  color:#033048;
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+

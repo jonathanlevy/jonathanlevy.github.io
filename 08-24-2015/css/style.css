@@ -1,0 +1,256 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  height: 100%;
+}
+
+
+.top{
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+     background-size: cover;
+     height: 700px;
+}
+
+.top h1{
+  margin-left: 160px;
+  margin-top: 25px;
+  font-size: 44px;
+  font-weight: 800;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.top h2{
+
+  margin-left: 200px;
+  margin-top: 125px;
+  font-size: 44px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 1px;
+
+}
+
+.top .button{
+
+    background-color: #f9e42e;
+    border-radius: 4px;
+    width: 240px;
+    height: 45px;
+    text-align: center;
+    padding-top: 3px;
+    vertical-align: middle;
+    margin: 0 auto;
+    font-size: 26px;
+    font-weight: 600;
+    color: #033048;
+    letter-spacing: 1px;
+    margin-top: 100px;
+     
+
+}
+.middle{
+    
+    background-color: #E3E3E1;
+    height: 400px;
+    color: #121212;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 auto 0 auto;
+    vertical-align: center;
+
+    
+
+}
+
+.middle h1{
+    
+    font-size: 40px;
+    font-weight: 600;
+    color: #033048;
+    letter-spacing: 1px;
+    margin-left: 160px;
+
+   ;
+}
+
+.middle h2{
+    color: #121212;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 160px;
+    max-width: 480px;
+}
+
+.middle ul{
+    margin-left: 50px;
+    list-style-type: circle;
+    color: #121212;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 220px;
+    max-width: 480px;
+
+}
+
+.bottom{
+
+    height: 370px;
+    width: 100%;
+    background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
+
+
+    
+}
+
+.bottom h1{
+
+      font-size: 36px;
+      font-style: italic;
+      font-weight: 300;
+      text-align: center;
+      color:white;
+      margin: 0 auto 0 auto;
+      padding-top: 50px;
+      max-width: 600px;   
+
+}
+
+.bottom h2{
+
+      font-size: 36px;
+      font-weight: 600;
+      text-align: center;
+      vertical-align: middle;
+      color:white;
+
+}
+
+.yellow {
+
+      background-color: #f9e42e;
+      height: 120px;
+      padding-top: 35px;
+
+}
+
+.yellow .button{
+
+    background-color: #033048;
+    border-radius: 4px;
+    width: 240px;
+    height: 45px;
+    text-align: center;
+    padding-top: 3px;
+    vertical-align: middle;
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+    margin: 0 auto 0 auto;
+
+  }
+
+  .footer{
+     background-color: black;
+     height:500px;
+  }
+
+  .black{
+
+    background-color: black;
+    margin: 0 auto 0 auto;
+    height:500px;
+
+
+  }
+
+    
+
+
+.black h1 {
+
+  
+  font-size: 44px;
+  font-weight: 800;
+  color: white;
+  letter-spacing: 1px;
+  height: 120px;
+  padding-top: 35px;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+

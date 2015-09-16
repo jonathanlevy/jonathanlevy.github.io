@@ -1,0 +1,21 @@
+<img id="image64bit" src=""/>
+
+<script>
+
+String.prototype.replaceAll = function(search, replace)
+{
+    if (replace === undefined) {
+        return this.toString();
+    }
+
+    return this.replace(new RegExp('[' + search + ']', 'g'), replace);
+};
+
+window.onload=function(){
+var encoding = '[[var:savedImage]]';
+encoding = encoding.replaceAll(' ', '+'); 
+var imageTest = document.getElementById('image64bit');
+alert(encoding);
+imageTest.src=encoding;
+}
+</script>
