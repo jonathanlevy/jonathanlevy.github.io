@@ -1,0 +1,99 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+/******************************************
+/* COLORS
+/*******************************************/
+
+
+/* 
+dark green #232608
+army green 3E4003
+tan A6866A
+light brown 735340
+dark brown 30231A
+
+or 
+granny smith
+493F0B brown
+A7C520 lime green
+off white F5F6D4
+pale green CDE855
+granny smith green 85DB18
+ */ 
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+
+  background-color: #30231A;
+  color: #493F0B;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.header {
+  align-items: center;
+  background-color: #033048;
+  justify-content: center;
+  height:200px;
+}
+
+/*.header__video{
+
+  video {
+    display: inline-block;
+}
+*/
+.header__logo {
+  color: #ffffff;
+  font-size: 48px;
+  max-width: 240px;
+  width: 100%;
+
+}
+
+.main {
+  background-color: #85DB18;
+  padding: 40px 0;  
+  height: 1000px;
+}
+
+.main__map{
+  
+}
+
+
+
+
+

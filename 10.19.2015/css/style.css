@@ -1,0 +1,22 @@
+h1 {
+	color: red;
+}
+
+.form-item > * {
+	width: 100%;
+}
+
+
+@media screen and (min-width: 600px) {
+	form {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.form-item {
+	width: 50%;
+
+}
+
+
+}

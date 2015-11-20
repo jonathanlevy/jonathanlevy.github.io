@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>A Form that Validates!</h1>
+
+    <form>
+        <div class="form-item"><input type="text" name="first_name" placeholder="First Name" required></div>
+        <div class="form-item"><input type="text" name="last_name" placeholder="Last Name" required></div>
+        <div class="form-item"><input type="text" name="start_date" placeholder="Start Date"></div>
+        <div class="form-item"><input type="text" name="end_date" placeholder="End Date"></div>
+        <div class="form-item"><input type="text" name="phone_number" placeholder="Phone Number"></div>
+        <div class="form-item"><input type="text" name="email" placeholder="Email Address"></div>
+        <div class="form-item"><input type="text" name="city" placeholder="City"></div>
+        <!-- <input type="text" name="state" placeholder="State"> -->
+        <div class="form-item--halfwidth">
+            <select name="state">
+                <option value="Texas">Texas</option>
+                <option value="California">California</option>
+                <option value="New York">New York</option>
+                <option value="Colorado">Colorado</option>
+            </select>
+        </div>
+        <div class="form-item--halfwidth">
+            <input type="text" name="zip" value="10009" placeholder="Zip">
+        </div>
+        <div class="form-item--fullwidth">
+            <textarea name="comments" rows="8" cols="40">Comments</textarea>
+        </div>
+          <div class="form-item--fullwidth">
+           <input type="submit">
+        </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src = "js/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
